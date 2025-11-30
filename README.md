@@ -32,11 +32,3 @@ Open R and run:
 library(shiny)
 runApp()
 
-## Repository Structure
-Compound-Poisson-RShiny/
-- app.R        (Main Shiny App)
-- README.md    (Documentation)
-- .gitignore   (R ignore rules)
-
-## LinkedIn Post Template
-Built an R Shiny app to analyze the Compound Poisson Process S(t) with exponential interarrival and jump sizes. Includes histograms at t=10, 100, 1000, 10000 plus parameter sensitivity and theoretical PDF comparison. GitHub Repository: <your repo link>
