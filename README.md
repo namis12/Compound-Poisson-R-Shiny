@@ -14,13 +14,13 @@ $X_i \sim \text{Exponential}(\mu)$
 
 This application demonstrates:
 
-How exponential interarrival times (rate $\lambda$) generate a Poisson($\lambda t$) arrival process.
+- How exponential interarrival times (rate $\lambda$) generate a Poisson($\lambda t$) arrival process.
 
-How exponential jump sizes (rate $\mu$) accumulate into a total claim process.
+- How exponential jump sizes (rate $\mu$) accumulate into a total claim process.
 
-How changes in parameters affect the distribution of aggregate values $S(t)$.
+- How changes in parameters affect the distribution of aggregate values $S(t)$.
 
-The tool is designed for simulation, mathematical education, actuarial modeling, and stochastic process visualization.
+- The tool is designed for simulation, mathematical education, actuarial modeling, and stochastic process visualization.
 
 # Mathematical Framework
 
@@ -74,18 +74,9 @@ $$\mathrm{Var}[S(t)] = \lambda t \cdot \frac{2}{\mu^2}$$
 
 - Statistical Outputs: Real-time calculation of sample mean/variance vs. theoretical mean/variance.
 
-#  How to Run
-
-Ensure you have R installed.
-
-Install the required packages:
-
-install.packages("shiny")
-
-
-Run the application:
-
-library(shiny)
-runApp("path_to_your_app_folder")
+# How to Run
+- Open R and run:
+- library(shiny)
+- runApp()
 
 
