@@ -1,4 +1,4 @@
-📘 Compound Poisson Process – R Shiny Application
+# Compound Poisson Process – R Shiny Application
 
 This project provides an interactive R Shiny application to visualize, simulate, and analyze the Compound Poisson Process:
 
