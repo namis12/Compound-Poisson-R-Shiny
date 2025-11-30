@@ -10,6 +10,14 @@ representing the total accumulated claims or jumps by time t.
 - N(t) ~ Poisson(λt)  — number of arrivals by time t
 - Xᵢ ~ Exponential(μ) — individual claim sizes
 - S(t) — compound Poisson distribution
+## Key Formulas
+P(S(t)=0) = exp(-λt)  
+E[S(t)] = (λt) / μ  
+Var[S(t)] = (2λt) / μ²  
+
+## Density for s > 0
+f_S(s) = exp(-λt - μs) * sqrt(λμt / s) * I₁( 2 * sqrt(λμts) )  
+(I₁ = Modified Bessel function of the first kind)
 
 ### Key Formulas
 P(S(t)=0) = exp(-λt)
