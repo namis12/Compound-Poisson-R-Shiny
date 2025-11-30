@@ -19,16 +19,6 @@ Var[S(t)] = (2λt) / μ²
 f_S(s) = exp(-λt - μs) * sqrt(λμt / s) * I₁( 2 * sqrt(λμts) )  
 (I₁ = Modified Bessel function of the first kind)
 
-### Key Formulas
-P(S(t)=0) = exp(-λt)
-E[S(t)] = (λt) / μ
-Var[S(t)] = (2λt) / μ²
-
-### Density for s > 0
-f_S(s) = exp(-λt - μs) * sqrt(λμt / s) * I₁( 2 * sqrt(λμts) )
-(I₁ = Modified Bessel function of the first kind)
-
-
 ## Features
 - Interactive R Shiny App to explore S(t)
 - Histograms at t = 10, 100, 1000, 10000
